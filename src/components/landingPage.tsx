@@ -31,7 +31,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
     <div className="flex flex-col min-h-screen bg-background text-foreground">
       {/* Header */}
       <header className="text-center py-10 bg-white shadow-sm">
-        <h1 className="text-4xl font-bold text-primary">Repro Crack!</h1>
+        <h1 className="text-4xl font-bold text-primary">Tongue Anatomy</h1>
         <img
           src="logo-tongue.png"
           alt="Logo Anatomi Telinga"
@@ -51,8 +51,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
               transition={{ duration: 0.5 }}
               className="text-center"
             >
-              <h2 className="text-2xl font-semibold mb-2">Crack The Code...</h2>
-              <p onClick={() => setShopPopup(true)} className="text-muted-foreground mb-8 text-family:poppins">Made by Kelompok 25 Anatomi ✨</p>
+              <h2 className="text-2xl font-semibold mb-2">Glukosa</h2>
+              <p onClick={() => setShopPopup(true)} className="text-muted-foreground mb-8 text-family:poppins">Made by Kelompok 19 Anatomi ✨</p>
               <button
                 onClick={() => setStep("loading")}
                 className="px-6 py-3 text-lg bg-blue-600 text-white rounded hover:bg-blue-700 transition"
@@ -113,56 +113,56 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
             onClick={(e) => e.stopPropagation()}
             className="bg-white rounded p-4 sm:w-96 text-center"
           >
-            <h3 className="font-bold text-xl mb-4">KELOMPOK RESPONSI 25</h3>
+            <h3 className="font-bold text-xl mb-4">KELOMPOK RESPONSI 19</h3>
 
             <div className="grid grid-cols-1 gap-2">
               <p className="font-bold leading-4">
-                Mauli Ratu Ganta
+                Andika Toto Imamush Shalih
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2418011056
+                  2418011015
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Melati Winka Lovia
+                Elphynindo Dasfritama Saragih Garingging 
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2418011058
+                  2418011103
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Indri Sentiawan
+                Ramadhana Syahfitri
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  24180111060
+                  2458011009
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Muhammad Syauqi Alghifari
+                Hamzah Rachmandhani Macan 
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2418011129
+                  2418011096
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Jewel Hafizhoh Bikry
+                M.Dzaki Rafi Arrayan
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2418011132
+                  2418011154
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Alshafa Tsalitsa Ghittachiara
+                Shifa Tanjia Zahira TS
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2418011151
+                  2458011036
                 </span>
               </p>
               <p className="font-bold leading-4">
-                Annisa Salsabila Arafani
+                Aura Anindita Tiaji
                 <br />
                 <span className="text-sm font-normal opacity-80">
-                  2458011021
+                  2458011010
                 </span>
               </p>
             </div>
