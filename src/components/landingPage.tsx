@@ -33,7 +33,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
       <header className="text-center py-10 bg-white shadow-sm">
         <h1 className="text-4xl font-bold text-primary">Repro Crack!</h1>
         <img
-          src="logoo.png"
+          src="logo-tongue.png"
           alt="Logo Anatomi Telinga"
           className="mx-auto mt-4 w-[8rem] h-[8rem]"
         />
